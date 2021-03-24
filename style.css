@@ -1,0 +1,28 @@
+h2 {
+  font-size: 36px;
+  font-family: 'Lucida Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 36px;
+  padding: 4px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 400px;
+  height: 240px;
+  outline: 4px solid #5322af;
+  margin: 24px;
+  outline-offset: 12px;
+  outline-style:ridge;
+  transition: all 300ms;
+}
+
+img:hover {
+  transform:scale(1.05);
+}
